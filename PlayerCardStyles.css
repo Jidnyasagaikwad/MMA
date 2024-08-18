@@ -1,0 +1,101 @@
+
+
+.player-heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.player-container{
+    max-width:900px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    padding-bottom: 5rem;
+    
+}
+
+.player-card{
+    background: #1a1919;
+    padding:1.2rem 2rem;
+
+}
+
+.player-card img{
+    width:100%;
+
+}
+
+
+
+.player-name{
+    color:#fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.player-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+.player-button{
+    padding:0.5rem 0;
+    display: grid;
+    grid-gap: 15px;
+ 
+}
+
+.btn2{
+    padding: 15px 35px;
+    font-size : 1.7rem;
+    text-transform: uppercase;
+    background: rgb(47,215,228);
+    background: linear-gradient(135deg, rgb(214, 92, 92) 43%, rgb(214, 49, 49) 60%);
+    border: 1px solid white;
+    font-weight: 600;
+    cursor : pointer;
+    text-align: right;
+    color:black;
+  
+  }
+
+.btn2:hover{
+    background: rgba(255,255,255,0.2);
+    color :white;
+    transition: 0.4s;
+    transform: translateY(3px);
+    box-shadow: none;
+
+  }
+
+.player-card:hover{
+    background-color: #5a5858	;
+    color:black;
+    transition: 0.3s;
+    border: 1px solid;
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 740px) {
+    .player-container{
+        max-width: 90%;
+        margin:auto;
+        display:grid;
+        grid-template-columns:1fr;
+    }
+}
+
+/* CSS code */
+.cb {
+    color: rgb(114, 215, 101); /* White text color */
+    font-weight: 789; /* Lightly bold text (you can adjust this value as needed) */
+    text-align: center; /* Center align the text */
+    ; /* Italicize the text */
+  }
+
+  /* CSS code */

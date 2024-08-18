@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin : 0;
+  padding : 0 ;
+  font-family: "Outfit", sans-serif;
+
+}
+
+body{
+  background : black;
+}
+
+h1,h4,p,a{
+  color: white;
+  text-decoration: none; /*TO REMOVE UNDERLINE FROM THE HYPERLINK AND PURPLE TEXTURE AS WELl */
+}
+
+ul{
+  list-style-type: none;   /* TO REMOVE THE BULLETS */
+}
+
+
+
+.btn{
+  padding: 15px 35px;
+  font-size : 1.7rem;
+  text-transform: uppercase;
+  background: rgb(226, 66, 63);
+  background: linear-gradient(135deg, rgb(183, 33, 33) 3%, rgb(0, 0, 0) 50%);
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  font-weight: 600;
+  cursor : pointer;
+
+}
+
+
+.btn-light{
+  background : transparent;
+  color : white;
+}
+
+.btn:hover{
+  background: rgba(255,255,255,0.2);
+  color :white;
+  transition: 0.3s;
+  transform: translateY(3px);
+  box-shadow: none;
+}
